@@ -1,3 +1,5 @@
+//Store & Display Values in Different Variables: Create and display variables of different data types, including Integer, Double, Float, Long, Short, Byte, Char, Boolean, and String
+
 fun main (){
     var i : Int = 22
     println("Integer Value:  "+ i)
