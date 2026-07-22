@@ -40,13 +40,13 @@ fun main(){
     println(userArray.contentToString())
     println()
 
-
+    println("*".repeat(45) + "With Built-in Function" + "*".repeat(45))
     println("After sorting by built-in function:")
     userArray.sort()  // Sorts the array in-place (ascending order)
     println(userArray.contentToString())
     println()
 
-
+    println("*".repeat(44) + "Without Built-in Function" + "*".repeat(45))
     val userArrayCopy = userArray.copyOf()  // Deep copy to avoid modifying sorted array
 
     println("Before Sorting:")

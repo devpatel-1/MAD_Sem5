@@ -1,12 +1,11 @@
-fun main () {
-    val arrayLst = arrayListOf(10, 71, 23, 12, 39, 19)
-
-    println("Displaying Elements:")
-    for (i in arrayLst.indices) {
-        println("a[$i] = ${arrayLst[i]}")
+fun main(){
+    val arrayList = arrayListOf(77, 90, 40, 15,
+        74)
+    println("Displaying elements:")
+    for (i in arrayList.indices) {
+        println("a[$i]=${arrayList[i]}")
     }
     println()
-
-    val max = arrayLst.maxOrNull()
-    println("Max is $max")
+    val max = arrayList.maxOrNull()
+    println("Largest element =$max")
 }

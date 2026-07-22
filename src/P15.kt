@@ -1,9 +1,8 @@
-fun main () {
-    println("Enter Month Number: ")
+fun main(){
+    println("Enter Month Number:")
     val number = readln().toInt()
-
     println(
-        when (number) {
+        when(number){
             1 -> "January"
             2 -> "February"
             3 -> "March"
@@ -16,7 +15,7 @@ fun main () {
             10 -> "October"
             11 -> "November"
             12 -> "December"
-            else -> "Please enter proper number!"
+            else -> "please enter Proper Number"
         }
     )
 }

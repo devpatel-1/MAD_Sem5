@@ -1,32 +1,21 @@
-//Store & Display Values in Different Variables: Create and display variables of different data types, including Integer, Double, Float, Long, Short, Byte, Char, Boolean, and String
-
-fun main (){
-    var i : Int = 22
-    println("Integer Value:  "+ i)
-
-    var a : Float = 1.5f
-    println("Float Value: "+ a)
-
-    var b : Char = 'T'
-    println("Char Value: "+ b)
-
-    var c : String = "Dev"
-    println("Character Value: "+ c)
-
-    var d : Boolean = false
-    println("Boolean Value: "+d )
-
-    var e : Double = 96.36
-    println("Double Value: "+ e)
-
-    var f : Long = 7824246823
-    println("Long Value: "+ f)
-
-    var g : Short = -2
-    println("Short Value: "+ g)
-
-    var h : Byte = 127
-    val z = 20000
-    println("Byte Value: "+ h)
-    println("z: "+z)
+fun main(){
+    val j: Int = 22
+    val f: Float = 22.5f
+    val c: Char = 'T'
+    val s: String = "Dev"
+    val b: Boolean = true
+    val d: Double = 3.14
+    val l: Long = 24012011080
+    val sh: Short = -2
+    val by: Byte = 127
+    println("Integer Value: $j")
+    println("Float Value: $f")
+    println("Character Value: $c")
+    println("String Value: $s")
+    println("Boolean Value: $b")
+    println("Double Value: $d")
+    println("Long Value: $l")
+    println("Short Value: $sh")
+    println("Byte Value: $by")
+    println("Sum of all:${j+f}")
 }

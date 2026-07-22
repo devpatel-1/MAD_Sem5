@@ -1,7 +1,6 @@
-fun main () {
-    println("Please enter number: ")
+fun main(){
+    println("Enter Number:")
     val number = readln().toInt()
-
     println(
         if(number % 2 == 0)
             "Number is even"
