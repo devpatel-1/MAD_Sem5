@@ -45,4 +45,4 @@ Enrollment No: 24012011080
 
 ## Completion Status
 
-- [x] Practical -1 (Completed) – DD/MM/YYYY
+- [x] Practical -1 (Completed) – 22/07/2026
